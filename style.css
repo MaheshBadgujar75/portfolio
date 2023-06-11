@@ -1,0 +1,355 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lavenderblush;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main hr {
+    border: 0;
+    background-color: purple;
+    height: 4px;
+    margin: 60px 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: purple;
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    margin: 0 23px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+.left {
+    font-size: 29px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.left:hover {
+    cursor: pointer;
+}
+
+
+.firstsection {
+    justify-content: space-around;
+    display: flex;
+    margin: 130px 0;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    color: black;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+    font-size: 45px;
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+.leftsection>div {
+    margin-left: 35px;
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+.green {
+    color: green;
+}
+
+#element {
+    color: purple;
+}
+
+
+
+
+
+
+
+.secondsection {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    max-width: 90vw;
+    margin: 130px 0;
+}
+
+.secondsection>div {
+    width: 100%;
+}
+
+.leftsection2 img {
+    border-radius: 90%;
+    justify-content: space-around;
+    float: left;
+    width: 45%;
+    margin-top: 85px;
+    margin-left: 100px;
+}
+
+.leftsection2 h1 {
+    color: purple;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    margin-right: 198px;
+}
+
+.rightsection2 {
+    font-size: xx-large;
+    color: purple;
+    margin-top: 10rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+
+
+
+
+
+.thirdsection {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.thirdsection>div {
+    width: 30%;
+}
+
+.thirdsection h1 {
+    color: purple;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    width: 10%;
+}
+
+.thirdsection img {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.leftsection3 p {
+    color: purple;
+    text-align: center;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.06rem;
+}
+
+.rightsection3 img {
+    float: right;
+    position: relative;
+    margin-top: 35%;
+}
+
+.rightsection3 p {
+    color: purple;
+    text-align: center;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 85%;
+    font-size: 1.06rem;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.fourthsection {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.fourthsection>div {
+    width: 30%;
+}
+
+.fourthsection h1 {
+    color: purple;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 350px;
+}
+
+.leftsection4 img {
+    width: 70%;
+    margin-left: 0;
+}
+
+.leftsection4 p {
+    color: purple;
+    text-align: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.06rem;
+}
+
+.rightsection4 img {
+    width: 35%;
+    margin-top: 8.5rem;
+}
+
+.rightsection4 p {
+    color: purple;
+    text-align: center;
+    font-size: 1.06rem;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+.contact {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.contact>div {
+    width: 30%;
+}
+
+
+.contact-me h2 {
+    color: purple;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.contact-me h3 {
+    text-align: center;
+    color: purple;
+}
+
+.contact-message {
+    width: 70%;
+    margin: 40px auto 60px;
+    text-align: center;
+}
+
+.contact-me p {
+    line-height: 2;
+    text-align: center;
+    font-size: 1.06rem;
+    color: purple;
+    margin-top: 50px;
+}
+
+
+.btn {
+    background: purple;
+    border-radius: 8px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.contact-me a {
+    margin: 10px 20px;
+    align-items: center;
+}
+
+
+
+
+footer {
+    background-color: black;
+    padding: 40px;
+}
+
+
+.bottomcontainer {
+    text-align: center;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+    color: red;
+    size: 50px;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: skyblue;
+}
+
+.fa-linkedin {
+    color: blue;
+}
+
+
+.copyright {
+    color: purple;
+    font-size: 1.06rem;
+    font-family: 'Quicksand', sans-serif;
+}
